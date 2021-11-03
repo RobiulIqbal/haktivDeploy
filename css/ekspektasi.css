@@ -1,0 +1,87 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+li {
+  float: right;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#Content {
+  margin: 25px;
+  padding: 10px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+
+#profile {
+  display: flex;
+  flex-direction: row;
+  margin-right: 250px;
+}
+#isiNama {
+  margin-left: 20px;
+  float: right;
+}
+#btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#form {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.spek {
+  font-weight: bold;
+  font-size: medium;
+  margin-right: 150px;
+}
+input {
+  width: 100%;
+}
+.button1 {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.button2 {
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+.button3 {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 100%;
+}
